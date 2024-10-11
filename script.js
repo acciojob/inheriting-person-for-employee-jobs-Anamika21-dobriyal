@@ -1,6 +1,7 @@
 // complete this js code
 //Define a Person class
 function Person(name, age) {
+	
 	constructor(name, age) {
     this.name = name;
     this.age = age;
@@ -10,6 +11,7 @@ function Person(name, age) {
   greet() {
     console.log(`Hello, my name is ${this.name}, I am ${this.age} years old`);
   }
+	
 }
 
 
@@ -28,6 +30,7 @@ class Employee extends Person {
   jobGreet() {
     console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`);
   }
+	
 }
 
 
