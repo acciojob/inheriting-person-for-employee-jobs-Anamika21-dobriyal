@@ -1,18 +1,27 @@
 // complete this js code
 //Define a Person class
-function Person(name, age) {
-	
-	constructor(name, age) {
+// class Person(name, age){
+//     this.name = name;
+//     this.age = age;
+//   }
+
+class Person {
+  constructor(name, age) {
     this.name = name;
     this.age = age;
   }
+}
 
   // greet method in Person class
-  greet() {
+  // greet() {
+  //   console.log(`Hello, my name is ${this.name}, I am ${this.age} years old`);
+  // }
+
+Person.prototype.greet = function() {
     console.log(`Hello, my name is ${this.name}, I am ${this.age} years old`);
-  }
-	
 }
+	
+
 
 
 
